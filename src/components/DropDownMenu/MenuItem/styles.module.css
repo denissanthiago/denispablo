@@ -1,0 +1,13 @@
+.containerMenuItem {
+	display: flex;
+	background-color: var(--bg-color-2);
+	flex-direction: row;
+	justify-content: space-between;
+	cursor: pointer;
+	align-items: center;
+	padding: 8px;
+	border-radius: 8px;
+}
+.containerMenuItem:hover {
+	filter: brightness(83%);
+}

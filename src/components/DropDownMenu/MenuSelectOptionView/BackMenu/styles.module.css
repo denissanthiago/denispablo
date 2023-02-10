@@ -1,0 +1,26 @@
+.toggleBtnBack {
+	color: var(--heading-color);
+	width: 24px;
+	height: 24px;
+	background-color: var(--bg-color-2);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+	transition: 0.3s;
+}
+
+.toggleBtnBack:hover {
+	filter: brightness(83%);
+}
+
+.containerButtonBack {
+	display: flex;
+	flex-direction: row;
+}
+
+.containerTextTitle {
+	margin-left: 8px;
+}

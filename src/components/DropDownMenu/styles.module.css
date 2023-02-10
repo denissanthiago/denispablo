@@ -1,0 +1,22 @@
+.containerDropDown {
+	position: absolute;
+	top: 48px;
+	width: 185px;
+	transform: translateX(-75%);
+	background-color: var(--bg-color-2);
+	border: 1px solid var(--text-color);
+	border-radius: 8px;
+	padding: 0.5rem;
+}
+
+.containerDropDown::before {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid var(--text-color);
+	top: -5px;
+	right: 19px;
+}

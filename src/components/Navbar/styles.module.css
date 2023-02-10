@@ -1,0 +1,56 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	transition: 0.3s;
+}
+
+.headerScrolled {
+	background-color: var(--bg-color-transparent);
+	box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 75rem;
+	padding: 0 1.5rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.links {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.links ul {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.logo {
+	margin-right: 1.5rem;
+	height: 120px;
+	line-height: 120px;
+	font-family: "Abril", sans-serif !important;
+	font-size: 1.5rem;
+	color: var(--heading-color);
+	letter-spacing: 1px;
+	transition: 0.3s;
+}
+
+.logoScrolled {
+	height: 80px;
+	line-height: 80px;
+}
+
+.logo span {
+	color: var(--main-color-1);
+}
